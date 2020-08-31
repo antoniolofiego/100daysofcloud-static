@@ -38,7 +38,7 @@ export default function Footer() {
                 <a
                     href='https://twitter.com/antonio_lofiego'
                     target='blank'
-                    className='text-blue-700'>
+                    className='text-blue-700 hover:underline'>
                     Antonio Lo Fiego
                 </a>
             </div>
