@@ -1,4 +1,7 @@
 import React from 'react';
+
+import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
+
 import chris from '../static/chris.bmp';
 import pic1 from '../static/pic-1.jpg';
 import pic2 from '../static/pic-2.jpg';
@@ -27,7 +30,7 @@ export default function () {
                         {pictures.map((pic, index) => {
                             return (
                                 <div
-                                    className='w-full pt-48 relative overflow-hidden'
+                                    className='w-full pt-56 relative overflow-hidden'
                                     key={index}>
                                     <img
                                         className='h-full w-full object-cover object-center absolute inset-0'
@@ -40,20 +43,24 @@ export default function () {
                     </div>
                 </div>
                 <div className='w-full mr-12'>
-                    <div className='w-full pt-16x9 relative overflow-hidden'>
+                    <div className='w-full pt-16x9 relative overflow-hidden mb-4'>
                         <img
                             className='h-full w-full object-cover object-center absolute inset-0'
                             src={chris}
                             alt='Article'
                         />
                     </div>
-                    <p className='leading-loose pb-4'>
+                    <ImQuotesLeft size={16} />
+                    <p className='leading-loose mx-4 italic'>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur
                         aut odit aut fugit, sed quia consequuntur magni dolores
                         eos qui ratione voluptatem sequi nesciunt.
                     </p>
+                    <div className='flex justify-end'>
+                        <ImQuotesRight size={16} />
+                    </div>
                     <p className='text-xl font-bold'>Chris Nagy</p>
-                    <p className='leading-loose text-lg font-bold'>
+                    <p className='leading-loose text-lg'>
                         Cloud Engineer @ Nordcloud
                     </p>
                 </div>
