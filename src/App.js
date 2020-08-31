@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
     return (
         <div>
-            <div className='pb-32'>
+            <div className=''>
                 <div className='flex flex-col h-screen'>
                     <Header />
                     <Hero />

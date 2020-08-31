@@ -5,7 +5,7 @@ import banner from '../static/banner.png';
 
 export default function Footer() {
     return (
-        <div className='w-full text-center p-4 pin-b'>
+        <div className='w-full text-center p-4 pin-b pt-32'>
             <div className='flex justify-center'>
                 <img className='h-32' src={banner} alt='#100DaysOfCloud Logo' />
             </div>

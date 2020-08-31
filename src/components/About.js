@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-        <div className='max-w-1440 mx-auto pb-32'>
+        <div className='max-w-1440 mx-auto pt-32'>
             <div className='2xl:w-1/2 w-3/4 2xl:ml-0 ml-10'>
                 <h1 className='2xl:text-5xl sm:text-4xl text-3xl pb-16'>
                     Grow your cloud computing skills in a vibrant group
