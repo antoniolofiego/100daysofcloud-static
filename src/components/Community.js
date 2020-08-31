@@ -52,15 +52,19 @@ export default function () {
                     </div>
                     <ImQuotesLeft size={16} />
                     <p className='leading-loose mx-4 italic'>
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                        aut odit aut fugit, sed quia consequuntur magni dolores
-                        eos qui ratione voluptatem sequi nesciunt.
+                        100DaysOfCloud is more than just a community. It is a
+                        place of encouragement, understanding and support. I am
+                        so grateful to be a part of it and the lessons I've
+                        learned here are invaluable. Without it, I would not
+                        have been able to break into the Cloud industry. Our
+                        conversations helped immensely throughout the job search
+                        and the interview process as well.
                     </p>
                     <div className='flex justify-end'>
                         <ImQuotesRight size={16} />
                     </div>
-                    <p className='text-xl font-bold'>Chris Nagy</p>
-                    <p className='leading-loose text-lg'>
+                    <p className='text-xl font-bold ml-4'>Chris Nagy</p>
+                    <p className='leading-loose text-lg ml-4'>
                         Cloud Engineer @ Nordcloud
                     </p>
                 </div>
