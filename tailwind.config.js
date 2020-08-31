@@ -12,6 +12,14 @@ module.exports = {
             maxWidth: {
                 1440: '1440px',
             },
+            screens: {
+                xs: '376px',
+                '2xl': '1440px',
+            },
+            padding: {
+                '16x9': '56.25%',
+                '1/2': '50%',
+            },
         },
     },
     variants: {},
