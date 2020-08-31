@@ -13,7 +13,7 @@ export default function () {
     return (
         <div className='max-w-1440 mx-auto pb-32'>
             <div className='2xl:w-1/2 w-3/4 2xl:ml-0 ml-10'>
-                <h1 className='2xl:text-4xl sm:text-3xl text-2xl pb-12'>
+                <h1 className='2xl:text-5xl sm:text-4xl text-3xl pb-12'>
                     You're in good company
                 </h1>
             </div>
@@ -52,7 +52,7 @@ export default function () {
                         aut odit aut fugit, sed quia consequuntur magni dolores
                         eos qui ratione voluptatem sequi nesciunt.
                     </p>
-                    <p className='text- font-bold'>Chris Nagy</p>
+                    <p className='text-xl font-bold'>Chris Nagy</p>
                     <p className='leading-loose text-lg font-bold'>
                         Cloud Engineer @ Nordcloud
                     </p>
