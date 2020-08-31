@@ -13,7 +13,7 @@ export default function () {
     return (
         <div className='max-w-1440 mx-auto pb-32'>
             <div className='2xl:w-1/2 w-3/4 2xl:ml-0 ml-10'>
-                <h1 className='2xl:text-5xl sm:text-4xl text-3xl pb-12'>
+                <h1 className='2xl:text-5xl sm:text-4xl text-3xl pb-16'>
                     You're in good company
                 </h1>
             </div>
