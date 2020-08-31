@@ -6,25 +6,25 @@ export default function MenuItems({ handleClick }) {
             <a
                 className='md:ml-4 md:py-0 py-2 text-center hover:underline text-md lg:text-lg'
                 href='#about'
-                onClick={() => handleClick()}>
+                onClick={handleClick}>
                 About us
             </a>
             <a
                 className='md:ml-4 md:py-0 py-2 text-center hover:underline text-md lg:text-lg'
                 href='#cloud'
-                onClick={() => handleClick()}>
+                onClick={handleClick}>
                 Cloud
             </a>
             <a
                 className='md:ml-4 md:py-0 py-2 text-center hover:underline text-md lg:text-lg'
                 href='#community'
-                onClick={() => handleClick()}>
+                onClick={handleClick}>
                 Community
             </a>
             <a
                 className='md:ml-4 md:py-0 py-2 text-center hover:underline text-md lg:text-lg'
                 href='#join-us'
-                onClick={() => handleClick()}>
+                onClick={handleClick}>
                 Join us
             </a>
         </div>
