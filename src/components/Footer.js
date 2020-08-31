@@ -7,7 +7,11 @@ export default function Footer() {
     return (
         <div className='w-full text-center pin-b pt-32 mb-16'>
             <div className='flex justify-center'>
-                <img className='h-32' src={banner} alt='#100DaysOfCloud Logo' />
+                <img
+                    className='lg:h-24 h-16'
+                    src={banner}
+                    alt='#100DaysOfCloud Logo'
+                />
             </div>
 
             <div className='flex justify-center mt-4'>
