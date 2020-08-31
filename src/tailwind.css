@@ -1,5 +1,15 @@
 @tailwind base;
 @tailwind components;
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+.snap {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
 @tailwind utilities;
 
 @font-face {
