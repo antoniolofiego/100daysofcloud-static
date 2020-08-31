@@ -5,7 +5,7 @@ import banner from '../static/banner.png';
 
 export default function Footer() {
     return (
-        <div className='w-full text-center p-4 pin-b pt-32'>
+        <div className='w-full text-center pin-b pt-32 mb-16'>
             <div className='flex justify-center'>
                 <img className='h-32' src={banner} alt='#100DaysOfCloud Logo' />
             </div>
@@ -31,7 +31,7 @@ export default function Footer() {
 
             <div className='mt-4'>
                 Made with
-                <span role='img' className='mx-2' aria-label='heart'>
+                <span role='img' className='mx-1' aria-label='heart'>
                     ❤️
                 </span>
                 by{' '}
@@ -41,6 +41,9 @@ export default function Footer() {
                     className='text-blue-700 hover:underline'>
                     Antonio Lo Fiego
                 </a>
+            </div>
+            <div className='mt-2'>
+                Built with React and TailwindCSS, hosted on AWS
             </div>
         </div>
     );
