@@ -38,7 +38,7 @@ export default function Header() {
                             (clicked ? 'block ' : 'hidden ') +
                             'bg-gray-200 w-48 py-2 mt-4 rounded-lg shadow-md absolute right-0 flex flex-col z-10'
                         }>
-                        <MenuItems />
+                        <MenuItems handleClick={handleClick} />
                     </div>
                 </div>
 
