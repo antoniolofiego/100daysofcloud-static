@@ -34,7 +34,13 @@ export default function Footer() {
                 <span role='img' className='mx-2' aria-label='heart'>
                     ❤️
                 </span>
-                by the #100DaysOfCloud team
+                by{' '}
+                <a
+                    href='https://twitter.com/antonio_lofiego'
+                    target='blank'
+                    className='text-blue-700'>
+                    Antonio Lo Fiego
+                </a>
             </div>
         </div>
     );
