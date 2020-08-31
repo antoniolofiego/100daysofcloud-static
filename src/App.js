@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import HeroContent from './components/HeroContent';
 import About from './components/About';
 import Community from './components/Community';
+import CTA from './components/CTA';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
             </div>
             <div id='community'>
                 <Community />
+            </div>
+            <div id='join-us'>
+                <CTA />
             </div>
             <Footer />
         </div>
