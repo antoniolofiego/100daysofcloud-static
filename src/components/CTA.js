@@ -7,7 +7,8 @@ export default function CTA() {
                 <h2 className='text-2xl md:w-3/4'>
                     At 100DaysOfCloud we celebrate, encourage, and believe that
                     diversity and inclusion are key factors to a positive and
-                    productive community.
+                    productive community. If you are looking to make your next
+                    move in the Cloud space, we would love to have you!
                 </h2>
                 <button
                     type='button'
