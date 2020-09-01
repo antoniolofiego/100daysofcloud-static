@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
     return (
         <div>
-            <div className=''>
+            <div id='hero'>
                 <div className='flex flex-col h-screen'>
                     <Header />
                     <Hero />
