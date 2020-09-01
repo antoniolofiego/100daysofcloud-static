@@ -1,15 +1,28 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 export default function HeroContent() {
     return (
         <div className='max-w-1440 mx-auto relative'>
             <div className='absolute bottom-0 left-0 mb-48'>
-                <div className='w-3/5 2xl:ml-0 ml-10'>
-                    <h1
+                <motion.div
+                    className='w-3/5 2xl:ml-0 ml-10'
+                    initial={{
+                        opacity: 0,
+                        y: 50,
+                    }}
+                    animate={{
+                        opacity: 1,
+                        y: 0,
+                    }}
+                    transition={{
+                        duration: 1.5,
+                    }}>
+                    <div
                         className='2xl:text-6xl sm:text-5xl text-3xl pb-12'
                         id='hero-title'>
                         The community for the cloud practitioners
-                    </h1>
+                    </div>
                     <div className='pb-10' id='server-button'>
                         <button
                             type='button'
@@ -22,7 +35,7 @@ export default function HeroContent() {
                             </a>
                         </button>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     );
