@@ -17,8 +17,9 @@
         "start": "concurrently --kill-others \"npm run start:tw\" \"npm run start:react\"",
         "start:tw": "postcss ./src/tailwind.css -o ./src/styles.css -w",
         "start:react": "react-scripts start",
-        "build": "react-scripts build",
-        "build:tw": "postcss ./src/tailwind.css -o ./src/styles.css --env production",
+        "build": "npm run build:tailwind && npm run build:react",
+        "build:react": "react-scripts build",
+        "build:tailwind": "tailwindcss build ./src/tailwind.css -o ./src/styles.css",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject"
     },
