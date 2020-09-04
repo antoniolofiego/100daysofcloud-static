@@ -16,19 +16,27 @@ export default function Footer() {
 
             <div className='flex justify-center mt-4'>
                 <a
-                    href='https://twitter.com/search?q=%23100DaysOfCloud&src=typeahead_click'
+                    href='https://twitter.com/100DaysCloud'
+                    target='blank'
                     className='mx-8'>
                     <FaTwitter color='#00ACEE' size='2em' />
                 </a>
-                <a href='https://github.com/100DaysOfCloud' className='mx-8'>
+                <a
+                    href='https://github.com/100DaysOfCloud'
+                    target='blank'
+                    className='mx-8'>
                     <FaGithub size='2em' />
                 </a>
                 <a
                     href='https://www.linkedin.com/groups/13884435/'
+                    target='blank'
                     className='mx-8'>
                     <FaLinkedin color=' #0077B5' size='2em' />
                 </a>
-                <a href='https://discord.gg/yd5j27X' className='mx-8'>
+                <a
+                    href='https://discord.gg/yd5j27X'
+                    target='blank'
+                    className='mx-8'>
                     <FaDiscord color='#738ADB' size='2em' />
                 </a>
             </div>
